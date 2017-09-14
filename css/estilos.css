@@ -159,6 +159,9 @@ body{
 .imagen-servicios img{
   width: 100%;
   height: 300px;
+  max-width: 100%;
+  text-align: center;
+  margin: auto;
 }
 .imagen-servicios h4{
   background-color: #3084C0;
@@ -190,4 +193,85 @@ body{
 }
 .imagen-portafolio{
   margin: auto;
+}
+.imagen-portafolio img{
+  margin: auto;
+}
+/*estilos de la informacion de lenguajes*/
+.contenedor{
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  -webkit-perspective: 700;
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+
+}
+.contenedor img{
+  width: 100%;
+  height: 100%;
+}
+.carta {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 2s;
+}
+.carta:hover{
+  transform: rotateY(180deg);
+}
+.lado{
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+
+}
+.atras.html5{
+  background-color: #FF651D;
+  padding: 3em;
+}
+.atras.css{
+  background-color: #3399FF;
+  padding: 2em;
+}
+.atras.javascript{
+  background-color: #F0DB4F;
+  padding: 3em;
+
+}
+.atras.jquery{
+  background-color: #78CFF5;
+  padding: 2em;
+}
+.atras.responsive{
+  background-color: #F15A50;
+  padding: 1em;
+}
+.atras.jade{
+  background-color: #69CCAA;
+  padding: 3em;
+}
+.atras{
+    background-color: #3084C0;
+    transform: rotateY(180deg);
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/*trabajo en equipo*/
+.texto-trabajo{
+  margin: auto;
+  font-family: 'Bree Serif', serif;
+  color: #3084C0;
+  text-align: center;
+}
+
+@media (min-width: 320px){
+  .trabajos-imagen img{
+    margin-top: 50px;
+  }
 }
