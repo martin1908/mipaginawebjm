@@ -270,8 +270,156 @@ body{
   text-align: center;
 }
 
+/*texto mi historia*/
+.texto-historia{
+  margin: auto;
+  font-family: 'Bree Serif', serif;
+  color: #3084C0;
+  text-align: center;
+  margin-top: 80px;
+}
+.imagen-perfil {
+  margin-top: 40px;
+}
+.imagen-perfil img{
+  border-radius: 40px 40px 40px 40px;
+}
+.texto-quien{
+  text-align: center;
+  margin-top: 40px;
+}
+.texto-quien h1{
+  font-family: 'Bree Serif', serif;
+  color: #3084C0;
+  margin-top: 50px;
+}
+.texto-quien p{
+  font-size: 16px;
+  font-family: 'Pacifico', cursive;
+  margin-top: 10px;
+
+}
+.texto-quien span{
+  color: red;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+
+}
+.texto-sobre{
+  text-align: center;
+  margin-top: 40px;
+}
+.texto-sobre h1{
+  font-family: 'Bree Serif', serif;
+  color: #3084C0;
+  margin-top: 40px;
+}
+.texto-sobre p{
+  font-size: 16px;
+  font-family: 'Pacifico', cursive; 
+}
+.texto-sobre span{
+  color: red;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+
+}
+.texto-habilidad{
+  text-align: center;
+  margin-top: 40px;
+}
+.texto-habilidad h1{
+  font-family: 'Bree Serif', serif;
+  color: #3084C0;
+  margin-top: 40px;
+}
+.texto-habilidad h2{
+  font-family: 'Bree Serif', serif;
+  color: #3084C0;
+  text-align: left;
+  padding: 5em;
+  margin-top: -140px;
+}
+.texto-habilidad p{
+  font-size: 16px;
+  font-family: 'Pacifico', cursive; 
+  text-align: left;
+  margin: 0;
+  padding: 10em;
+  margin-top: -300px;
+}
+/*footer*/
+.navigation{
+  text-align: center;
+  margin: auto;
+  font-family: 'Bree Serif', serif;
+  color: #3084C0;
+  font-size: 25px;
+}
+.text-uppercase{
+  font-family: 'Bree Serif', serif;
+  color: #3084C0;
+  font-size: 25px;
+}
+#emailHelp{
+  font-family: 'Pacifico', cursive; 
+}
+iframe{
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: 250px;
+}
+.nav{
+  text-align: center;
+  margin: auto;
+  font-family: 'Pacifico', cursive; 
+}
+button{
+ font-family: 'Bree Serif', serif; 
+}
+/*responsive*/
+
+@media (min-width: 360px){
+  .trabajos-imagen{
+    margin-top: 80px;
+  }
+  .imagen-perfil img{
+    width: 300px;
+  }
+  .texto-quien{
+
+  }
+  .texto-habilidad h2{
+    margin-left: -140px;
+  }
+  .texto-habilidad p{
+    margin-left: -100px;
+  }
+
+  iframe{
+    width: 250px;
+  }
+}
 @media (min-width: 320px){
-  .trabajos-imagen img{
-    margin-top: 50px;
+  .trabajos-imagen{
+    margin-top: 80px;
+    text-align: center;
+    margin: auto;
+  }
+  .imagen-perfil img{
+    width: 265px;
+  }
+  iframe{
+    width: 250px;
+  }
+  .texto-habilidad h2{
+    margin-left: -140px;
+  }
+  .texto-habilidad p{
+    margin-left: -100px;
+  }
+  .trabajos-imagen h1{
+    margin-top: 60px; 
   }
 }
