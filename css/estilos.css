@@ -367,8 +367,13 @@ body{
 iframe{
   text-align: center;
   margin: auto;
-  width: 100%;
+  width: 400px;
   height: 250px;
+  margin-top: 70px;
+}
+.mapita-contenedor{
+  text-align: center;
+  margin: auto;
 }
 .nav{
   text-align: center;
@@ -377,6 +382,9 @@ iframe{
 }
 button{
  font-family: 'Bree Serif', serif; 
+}
+.form-group{
+  margin-top: 30px;
 }
 /*responsive*/
 
@@ -401,6 +409,7 @@ button{
     width: 250px;
   }
 }
+
 @media (min-width: 320px){
   .trabajos-imagen{
     margin-top: 80px;

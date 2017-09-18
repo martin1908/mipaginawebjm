@@ -42,10 +42,10 @@ function getMobileMenu() {
   $('.mobile-menu').each(function() { 
         var menutitle = $(this).attr("data-menu-title");
         if ( menutitle == "" ) {
-          menutitle = "JM";
+          menutitle = "ME";
         }
         else if ( menutitle == undefined ) {
-          menutitle = "JM";
+          menutitle = "ME";
         }
         var $menulist = $(this).children('.mobile-menu-main-list').html();
         var $menucontrols ="<div class='mobile-menu-toggled-controls'><div class='mobile-menu-toggled-title'>" + menutitle + "</div><div class='mobile-menu-button'><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></div></div>";
